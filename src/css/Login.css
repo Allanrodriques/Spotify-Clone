@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.login > img {
+  width: 50%;
+}
+
+.login > a {
+  padding: 20px;
+  border-radius: 99px;
+  background-color: #1db954;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.login > a:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  login > a {
+    padding: 15px;
+  }
+}
